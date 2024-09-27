@@ -1,0 +1,7 @@
+{
+"name": "SafetyInspectorKiller",
+"version_number": "1.0.0",
+"description": "A misguided effort by a safety obsessed worker leads to a brutal murder, and it's up to you to solve the case.",
+"website_url": "",
+"dependencies": ["Piepieonline-CommunityCaseLoader-0.1.2"]
+}

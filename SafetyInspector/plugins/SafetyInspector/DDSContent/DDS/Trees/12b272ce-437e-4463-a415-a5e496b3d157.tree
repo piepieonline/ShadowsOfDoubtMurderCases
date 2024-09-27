@@ -1,0 +1,139 @@
+{
+  "document": {
+    "background": "",
+    "colour": {
+      "a": 0,
+      "b": 0,
+      "g": 0,
+      "r": 0
+    },
+    "fill": 1,
+    "size": {
+      "x": 0,
+      "y": 0
+    }
+  },
+  "id": "12b272ce-437e-4463-a415-a5e496b3d157",
+  "messages": [
+    {
+      "alignH": 0,
+      "alignV": 0,
+      "charSpace": 0,
+      "col": {
+        "a": 1,
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "elementName": "",
+      "font": "Halogen",
+      "fontSize": 22,
+      "fontStyle": 0,
+      "instanceID": "411e7433-e4b7-4beb-91a1-503b6f7e5c49",
+      "lineSpace": 16,
+      "links": [],
+      "msgID": "94facd59-cf9d-4e3d-80d2-cca7962480ab",
+      "order": 0,
+      "paraSpace": 0,
+      "pos": {
+        "x": -30,
+        "y": -175
+      },
+      "rot": 0,
+      "saidBy": 0,
+      "saidTo": 1,
+      "size": {
+        "x": 320,
+        "y": 300
+      },
+      "usePages": false,
+      "wordSpace": 0
+    },
+    {
+      "alignH": 0,
+      "alignV": 0,
+      "charSpace": 0,
+      "col": {
+        "a": 1,
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "elementName": "",
+      "font": "Halogen",
+      "fontSize": 22,
+      "fontStyle": 0,
+      "instanceID": "32fa905e-b177-481c-af9e-650c7cf275a3",
+      "lineSpace": 16,
+      "links": [],
+      "msgID": "17c4b518-2d15-43e7-ab72-18b30cd96043",
+      "order": 1,
+      "paraSpace": 0,
+      "pos": {
+        "x": -30,
+        "y": -175
+      },
+      "rot": 0,
+      "saidBy": 1,
+      "saidTo": 0,
+      "size": {
+        "x": 320,
+        "y": 300
+      },
+      "usePages": false,
+      "wordSpace": 0
+    }
+  ],
+  "name": "SafetyInspector-Vmail",
+  "participantA": {
+    "connection": 15,
+    "disableInbox": false,
+    "jobs": [],
+    "required": true,
+    "traitConditions": 0,
+    "traits": [],
+    "triggers": [],
+    "useJobs": false,
+    "useTraits": false
+  },
+  "participantB": {
+    "connection": 4,
+    "disableInbox": false,
+    "jobs": [],
+    "required": true,
+    "traitConditions": 0,
+    "traits": [],
+    "triggers": [],
+    "useJobs": false,
+    "useTraits": false
+  },
+  "participantC": {
+    "connection": 15,
+    "disableInbox": false,
+    "jobs": [],
+    "required": false,
+    "traitConditions": 0,
+    "traits": [],
+    "triggers": [],
+    "useJobs": false,
+    "useTraits": false
+  },
+  "participantD": {
+    "connection": 15,
+    "disableInbox": false,
+    "jobs": [],
+    "required": false,
+    "traitConditions": 0,
+    "traits": [],
+    "triggers": [],
+    "useJobs": false,
+    "useTraits": false
+  },
+  "priority": 3,
+  "repeat": 1,
+  "startingMessage": "411e7433-e4b7-4beb-91a1-503b6f7e5c49",
+  "stopMovement": true,
+  "treeChance": 1,
+  "treeType": 1,
+  "triggerPoint": 5
+}

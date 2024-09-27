@@ -1,0 +1,1 @@
+A misguided effort by a safety obsessed worker leads to a brutal murder, and it's up to you to solve the case.

@@ -1,0 +1,158 @@
+{
+  "presetName": "SafetyInspector",
+  "notes": "SafetyInspector",
+  "disabled": false,
+  "compatibleWith": [
+    "REF:MurderPreset|SerialKiller"
+  ],
+  "baseDifficulty": 0,
+  "maximumPotentialScore": 0,
+  "updateThis": false,
+  "pickRandomScoreRange": {
+    "x": 0,
+    "y": 15
+  },
+  "murdererTraitModifiers": [],
+  "murdererJobModifiers": [],
+  "murdererCompanyModifiers": [
+    {
+      "companies": [
+        "REF:CompanyPreset|IndustrialOffice",
+        "REF:CompanyPreset|IndustrialPlant"
+      ],
+      "mininumEmployees": 2,
+      "companyBoost": 20,
+      "boostPerEmployeeOverMinimum": 0,
+      "copyFrom": null
+    }
+  ],
+  "useMurdererSocialClassRange": false,
+  "murdererClassRange": {
+    "x": 0,
+    "y": 1
+  },
+  "murdererClassRangeBoost": 0,
+  "useHexaco": false,
+  "hexaco": {
+    "outputMin": 1,
+    "outputMax": 10,
+    "enableFeminineMasculine": false,
+    "feminineMasculine": 0,
+    "enableHumility": false,
+    "humility": 0,
+    "enableEmotionality": false,
+    "emotionality": 0,
+    "enableExtraversion": false,
+    "extraversion": 0,
+    "enableAgreeableness": false,
+    "agreeableness": 0,
+    "enableConscientiousness": false,
+    "conscientiousness": 0,
+    "enableCreativity": false,
+    "creativity": 0
+  },
+  "requiresSniperVantageAtHome": false,
+  "weaponsPool": [
+    "REF:MurderWeaponsPool|Blades",
+    "REF:MurderWeaponsPool|BluntObjects",
+    "REF:MurderWeaponsPool|Guns"
+  ],
+  "blockDroppingWeapons": false,
+  "allowAnywhere": false,
+  "allowHome": 0,
+  "allowWork": 1,
+  "allowPublic": false,
+  "allowStreets": false,
+  "allowDen": false,
+  "acquaintedSuitabilityBoost": 0,
+  "attractedToSuitabilityBoost": 0,
+  "likeSuitabilityBoost": -3,
+  "sameWorkplaceBoost": 20,
+  "murdererIsTenantBoost": 0,
+  "victimRandomScoreRange": {
+    "x": 0,
+    "y": 1
+  },
+  "victimTraitModifiers": [],
+  "victimJobModifiers": [],
+  "victimCompanyModifiers": [
+    {
+      "companies": [
+        "REF:CompanyPreset|IndustrialPlant"
+      ],
+      "mininumEmployees": 1,
+      "companyBoost": 25,
+      "boostPerEmployeeOverMinimum": 0,
+      "copyFrom": null
+    },
+    {
+      "companies": [
+        "REF:CompanyPreset|IndustrialOffice"
+      ],
+      "mininumEmployees": 1,
+      "companyBoost": 10,
+      "boostPerEmployeeOverMinimum": 0,
+      "copyFrom": null
+    }
+  ],
+  "useVictimSocialClassRange": false,
+  "victimClassRange": {
+    "x": 0,
+    "y": 1
+  },
+  "victimClassRangeBoost": 0,
+  "monkierDDSMessageList": "7e2a14e9-7ca3-4a74-80fb-61ce60f32fd9",
+  "confessionalDDSResponses": [
+    "1c873c5f-1092-47c5-999c-6a45bd5e403a"
+  ],
+  "MOleads": [
+    {
+      "name": "VMAIL: Safety Concerns",
+      "compatibleWithAllMotives": 1,
+      "compatibleWithMotives": [],
+      "spawnOnPhase": 2,
+      "tryToSpawnWithEachNewMurder": 1,
+      "belongsTo": 2,
+      "chance": 1,
+      "useTraits": false,
+      "traitModifiers": [],
+      "useIf": false,
+      "ifTag": "JobTag",
+      "useOrGroup": false,
+      "orGroup": "JobTag",
+      "chanceRatio": 0,
+      "itemTag": "JobTag",
+      "spawnItem": null,
+      "vmailThread": "12b272ce-437e-4463-a415-a5e496b3d157",
+      "vmailProgressThreshold": {
+        "x": 1,
+        "y": 1
+      },
+      "writer": 2,
+      "receiver": 0,
+      "vmailOtherParticipants": [],
+      "where": 3,
+      "security": 0,
+      "priority": 0,
+      "ownershipRule": "OwnedPlacementRule",
+      "copyFrom": null
+    }
+  ],
+  "graffiti": [],
+  "callingCardPool": [
+    {
+      "item": "REF:InteractablePreset|WetFloorSign",
+      "origin": "CallingCardOrigin",
+      "randomScoreRange": {
+        "x": 1,
+        "y": 1
+      },
+      "traitModifiers": [],
+      "copyFrom": null
+    }
+  ],
+  "playerTaunts": [],
+  "fileType": "MurderMO",
+  "name": "SafetyInspector",
+  "copyFrom": null
+}
